@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title> if-statement </title>
+    </head>
+    <body> 
+        <script>
+            var x=1;
+            if(x==1)
+            {
+                alert("Welcome to my webpage!") // pops a dialog box with the message displayed
+            }
+            else
+            {
+                alert("Condition not satisfied")
+            }
+        </script>
+    </body>
+</html>
