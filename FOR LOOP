@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title> FOR Loops </title>
+    </head>
+    <body> 
+        <p id="para1"></p>
+        <script>
+            var tweets=["Good Morning", "having tea", "right now"]
+            var j=""; // empty variable
+            for(var i=0; i<3; i++)
+            {
+                // saving the entire elements in the array in one variable
+                j = j + " " + tweets[i]
+            }
+            document.getElementById("para1").innerHTML = j;
+
+            /* Printing number from range 0-4
+            // FOR LOOP
+            for(var i=0; i<5; i++)
+            {
+                alert(i);
+            }
+            */
+        </script>
+        
+    </body>
+</html>
