@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title> Jquery Include</title>       
+        <script src="jquery.js"></script>
+    </head>
+    <body> 
+       <script>
+        if(jQuery == "undefined")
+        {
+            alert("Jquery not included")
+        }
+        else
+        {
+            alert("Jquery included")
+        }
+       </script>
+    </body>
+    
+</html>
