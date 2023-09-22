@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title> Fadout-Content</title>       
+        <script src="jquery.js"></script>
+        <style>
+            #para
+            {
+                display: none;
+            }
+        </style>
+    </head>
+    <body> 
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita esse tenetur libero suscipit asperiores minima quam et unde, inventore est, eaque voluptatem optio iusto? Unde tempore harum placeat quaerat totam.</p>
+        <button>Fadecontent</button>
+        <script>
+            $("button").click(function()
+            {
+                $("#para").fadeIn();
+            });
+
+            /*
+            $("button").click(function()
+            {
+                $("p").fadeOut(function()
+                {
+                    alert("Contnent has been faded out");
+                });
+                //$("p").fadeOut("slow");
+            });
+            */
+        </script>
+    </body>
+    
+</html>
